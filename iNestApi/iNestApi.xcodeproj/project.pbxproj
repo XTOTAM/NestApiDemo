@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF09F06B1FA363EF00940670 /* NASettigsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09F06A1FA363EF00940670 /* NASettigsViewController.m */; };
+		BF349E1D1F9F78CF00D5A5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF349E1C1F9F78CF00D5A5D9 /* AppDelegate.m */; };
+		BF349E231F9F78CF00D5A5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF349E211F9F78CF00D5A5D9 /* Main.storyboard */; };
+		BF349E251F9F78CF00D5A5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF349E241F9F78CF00D5A5D9 /* Assets.xcassets */; };
+		BF349E281F9F78CF00D5A5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF349E261F9F78CF00D5A5D9 /* LaunchScreen.storyboard */; };
+		BF349E2B1F9F78CF00D5A5D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF349E2A1F9F78CF00D5A5D9 /* main.m */; };
+		BF99CFCB1FA0866E00395065 /* NAThermostatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99CFCA1FA0866E00395065 /* NAThermostatViewController.m */; };
+		BF99CFCF1FA0967600395065 /* NAAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF99CFCE1FA0967600395065 /* NAAuthManager.m */; };
+		BF9D4F4C1F9F899200B68DDC /* NAAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D4F4B1F9F899200B68DDC /* NAAPIClient.m */; };
+		BF9D4F501F9F8D6000B68DDC /* NAAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D4F4F1F9F8D6000B68DDC /* NAAuthViewController.m */; };
+		BF9D4F591F9F8E5E00B68DDC /* NAThermostatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D4F581F9F8E5E00B68DDC /* NAThermostatModel.m */; };
+		BFB922C11FA0D9C100903B56 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB922C01FA0D9C100903B56 /* AccessToken.m */; };
+		CAD3775148837FF1FAEEB15F /* libPods-iNestApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7642E3384F18D2CF7CC289 /* libPods-iNestApi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B36ED73A5450306CC2774AC /* Pods-iNestApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNestApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNestApi/Pods-iNestApi.debug.xcconfig"; sourceTree = "<group>"; };
+		BF09F0691FA363EF00940670 /* NASettigsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASettigsViewController.h; sourceTree = "<group>"; };
+		BF09F06A1FA363EF00940670 /* NASettigsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASettigsViewController.m; sourceTree = "<group>"; };
+		BF349E181F9F78CF00D5A5D9 /* iNestApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNestApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF349E1B1F9F78CF00D5A5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF349E1C1F9F78CF00D5A5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF349E221F9F78CF00D5A5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF349E241F9F78CF00D5A5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF349E271F9F78CF00D5A5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF349E291F9F78CF00D5A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF349E2A1F9F78CF00D5A5D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF99CFC91FA0866E00395065 /* NAThermostatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAThermostatViewController.h; sourceTree = "<group>"; };
+		BF99CFCA1FA0866E00395065 /* NAThermostatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAThermostatViewController.m; sourceTree = "<group>"; };
+		BF99CFCD1FA0967600395065 /* NAAuthManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAuthManager.h; sourceTree = "<group>"; };
+		BF99CFCE1FA0967600395065 /* NAAuthManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAuthManager.m; sourceTree = "<group>"; };
+		BF9D4F4A1F9F899200B68DDC /* NAAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAPIClient.h; sourceTree = "<group>"; };
+		BF9D4F4B1F9F899200B68DDC /* NAAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAPIClient.m; sourceTree = "<group>"; };
+		BF9D4F4D1F9F8AEB00B68DDC /* NADefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NADefine.h; sourceTree = "<group>"; };
+		BF9D4F4E1F9F8D6000B68DDC /* NAAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAuthViewController.h; sourceTree = "<group>"; };
+		BF9D4F4F1F9F8D6000B68DDC /* NAAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAuthViewController.m; sourceTree = "<group>"; };
+		BF9D4F571F9F8E5E00B68DDC /* NAThermostatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAThermostatModel.h; sourceTree = "<group>"; };
+		BF9D4F581F9F8E5E00B68DDC /* NAThermostatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAThermostatModel.m; sourceTree = "<group>"; };
+		BFB922BF1FA0D9C100903B56 /* AccessToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		BFB922C01FA0D9C100903B56 /* AccessToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		CC7642E3384F18D2CF7CC289 /* libPods-iNestApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iNestApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2995A795AA5023DE50EAF78 /* Pods-iNestApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNestApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNestApi/Pods-iNestApi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF349E151F9F78CF00D5A5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD3775148837FF1FAEEB15F /* libPods-iNestApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A6A98A9BDC532A774846C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B36ED73A5450306CC2774AC /* Pods-iNestApi.debug.xcconfig */,
+				D2995A795AA5023DE50EAF78 /* Pods-iNestApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF349E0F1F9F78CE00D5A5D9 = {
+			isa = PBXGroup;
+			children = (
+				BF349E1A1F9F78CF00D5A5D9 /* iNestApi */,
+				BF349E191F9F78CF00D5A5D9 /* Products */,
+				08A6A98A9BDC532A774846C4 /* Pods */,
+				D2460068EEE4DD1861222F31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF349E191F9F78CF00D5A5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF349E181F9F78CF00D5A5D9 /* iNestApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF349E1A1F9F78CF00D5A5D9 /* iNestApi */ = {
+			isa = PBXGroup;
+			children = (
+				BF349E311F9F7ADB00D5A5D9 /* appDelegate */,
+				BF349E341F9F7B1B00D5A5D9 /* APIClient */,
+				BF9D4F561F9F8E3800B68DDC /* model */,
+				BF99CFCC1FA0965300395065 /* manager */,
+				BF349E321F9F7AE900D5A5D9 /* viewController */,
+				BF349E331F9F7AF900D5A5D9 /* interface */,
+				BF349E351F9F7B9500D5A5D9 /* helpers */,
+				BF349E241F9F78CF00D5A5D9 /* Assets.xcassets */,
+				BF349E291F9F78CF00D5A5D9 /* Info.plist */,
+			);
+			path = iNestApi;
+			sourceTree = "<group>";
+		};
+		BF349E311F9F7ADB00D5A5D9 /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF349E1B1F9F78CF00D5A5D9 /* AppDelegate.h */,
+				BF349E1C1F9F78CF00D5A5D9 /* AppDelegate.m */,
+			);
+			path = appDelegate;
+			sourceTree = "<group>";
+		};
+		BF349E321F9F7AE900D5A5D9 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D4F4E1F9F8D6000B68DDC /* NAAuthViewController.h */,
+				BF9D4F4F1F9F8D6000B68DDC /* NAAuthViewController.m */,
+				BF99CFC91FA0866E00395065 /* NAThermostatViewController.h */,
+				BF99CFCA1FA0866E00395065 /* NAThermostatViewController.m */,
+				BF09F0691FA363EF00940670 /* NASettigsViewController.h */,
+				BF09F06A1FA363EF00940670 /* NASettigsViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		BF349E331F9F7AF900D5A5D9 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				BF349E261F9F78CF00D5A5D9 /* LaunchScreen.storyboard */,
+				BF349E211F9F78CF00D5A5D9 /* Main.storyboard */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		BF349E341F9F7B1B00D5A5D9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D4F4A1F9F899200B68DDC /* NAAPIClient.h */,
+				BF9D4F4B1F9F899200B68DDC /* NAAPIClient.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		BF349E351F9F7B9500D5A5D9 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF349E2A1F9F78CF00D5A5D9 /* main.m */,
+				BF9D4F4D1F9F8AEB00B68DDC /* NADefine.h */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		BF99CFCC1FA0965300395065 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				BF99CFCD1FA0967600395065 /* NAAuthManager.h */,
+				BF99CFCE1FA0967600395065 /* NAAuthManager.m */,
+				BFB922BF1FA0D9C100903B56 /* AccessToken.h */,
+				BFB922C01FA0D9C100903B56 /* AccessToken.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		BF9D4F561F9F8E3800B68DDC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D4F571F9F8E5E00B68DDC /* NAThermostatModel.h */,
+				BF9D4F581F9F8E5E00B68DDC /* NAThermostatModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D2460068EEE4DD1861222F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7642E3384F18D2CF7CC289 /* libPods-iNestApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF349E171F9F78CF00D5A5D9 /* iNestApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF349E2E1F9F78CF00D5A5D9 /* Build configuration list for PBXNativeTarget "iNestApi" */;
+			buildPhases = (
+				87DCA7C0D7C85CFADA7A7CD7 /* [CP] Check Pods Manifest.lock */,
+				BF349E141F9F78CF00D5A5D9 /* Sources */,
+				BF349E151F9F78CF00D5A5D9 /* Frameworks */,
+				BF349E161F9F78CF00D5A5D9 /* Resources */,
+				E997881C1F6DE78858E9C2FE /* [CP] Embed Pods Frameworks */,
+				AD28A5BFB81B4BB1146095A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNestApi;
+			productName = iNestApi;
+			productReference = BF349E181F9F78CF00D5A5D9 /* iNestApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF349E101F9F78CE00D5A5D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MoveTech;
+				TargetAttributes = {
+					BF349E171F9F78CF00D5A5D9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF349E131F9F78CE00D5A5D9 /* Build configuration list for PBXProject "iNestApi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF349E0F1F9F78CE00D5A5D9;
+			productRefGroup = BF349E191F9F78CF00D5A5D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF349E171F9F78CF00D5A5D9 /* iNestApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF349E161F9F78CF00D5A5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF349E281F9F78CF00D5A5D9 /* LaunchScreen.storyboard in Resources */,
+				BF349E251F9F78CF00D5A5D9 /* Assets.xcassets in Resources */,
+				BF349E231F9F78CF00D5A5D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87DCA7C0D7C85CFADA7A7CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iNestApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD28A5BFB81B4BB1146095A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNestApi/Pods-iNestApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E997881C1F6DE78858E9C2FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNestApi/Pods-iNestApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF349E141F9F78CF00D5A5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF99CFCB1FA0866E00395065 /* NAThermostatViewController.m in Sources */,
+				BF9D4F4C1F9F899200B68DDC /* NAAPIClient.m in Sources */,
+				BF9D4F501F9F8D6000B68DDC /* NAAuthViewController.m in Sources */,
+				BFB922C11FA0D9C100903B56 /* AccessToken.m in Sources */,
+				BF99CFCF1FA0967600395065 /* NAAuthManager.m in Sources */,
+				BF9D4F591F9F8E5E00B68DDC /* NAThermostatModel.m in Sources */,
+				BF349E2B1F9F78CF00D5A5D9 /* main.m in Sources */,
+				BF349E1D1F9F78CF00D5A5D9 /* AppDelegate.m in Sources */,
+				BF09F06B1FA363EF00940670 /* NASettigsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF349E211F9F78CF00D5A5D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF349E221F9F78CF00D5A5D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF349E261F9F78CF00D5A5D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF349E271F9F78CF00D5A5D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF349E2C1F9F78CF00D5A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF349E2D1F9F78CF00D5A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF349E2F1F9F78CF00D5A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B36ED73A5450306CC2774AC /* Pods-iNestApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JZ5ZGJWC8;
+				INFOPLIST_FILE = iNestApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iNestApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF349E301F9F78CF00D5A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2995A795AA5023DE50EAF78 /* Pods-iNestApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JZ5ZGJWC8;
+				INFOPLIST_FILE = iNestApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iNestApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF349E131F9F78CE00D5A5D9 /* Build configuration list for PBXProject "iNestApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF349E2C1F9F78CF00D5A5D9 /* Debug */,
+				BF349E2D1F9F78CF00D5A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF349E2E1F9F78CF00D5A5D9 /* Build configuration list for PBXNativeTarget "iNestApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF349E2F1F9F78CF00D5A5D9 /* Debug */,
+				BF349E301F9F78CF00D5A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF349E101F9F78CE00D5A5D9 /* Project object */;
+}
